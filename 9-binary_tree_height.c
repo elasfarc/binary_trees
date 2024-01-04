@@ -1,4 +1,5 @@
 #include "binary_trees.h"
+
 /**
  * max - Find the maximum of two integers
  * @a: First integer
@@ -17,8 +18,9 @@ int max(int a, int b)
  * @tree: Pointer to the root node of the binary tree
  *
  * Description:
- * This function calculates the height of a binary tree. The height of a binary
- * tree is the length of the longest path from the root node to a leaf node.
+ * This function calculates the height of a binary tree.
+ * The height of a binary tree is the length of the longest path from
+ * the root node to a leaf node.
  *
  * Return:
  * The height of the binary tree.
