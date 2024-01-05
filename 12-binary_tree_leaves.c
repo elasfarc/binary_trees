@@ -9,10 +9,12 @@
  */
 size_t binary_tree_leaves(const binary_tree_t *tree)
 {
+	int is_leaf;
+
 	if (!tree)
 		return (0);
 
-	int is_leaf = tree && !tree->left && !tree->right;
+	is_leaf = tree && !tree->left && !tree->right;
 
 	return (
 		is_leaf +
